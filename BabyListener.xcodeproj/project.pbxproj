@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0107E9331C21B2D300BB2DB2 /* ListenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0107E9321C21B2D300BB2DB2 /* ListenView.m */; };
+		0107E9351C21B30D00BB2DB2 /* ListenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0107E9341C21B30D00BB2DB2 /* ListenView.xib */; };
 		0170D1361C1D60DF00C005BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0170D1351C1D60DF00C005BB /* main.m */; };
 		0170D1391C1D60DF00C005BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0170D1381C1D60DF00C005BB /* AppDelegate.m */; };
 		0170D13C1C1D60DF00C005BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0170D13B1C1D60DF00C005BB /* ViewController.m */; };
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0107E9311C21B2D300BB2DB2 /* ListenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenView.h; sourceTree = "<group>"; };
+		0107E9321C21B2D300BB2DB2 /* ListenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListenView.m; sourceTree = "<group>"; };
+		0107E9341C21B30D00BB2DB2 /* ListenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListenView.xib; sourceTree = "<group>"; };
 		0170D1301C1D60DF00C005BB /* BabyListener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyListener.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0170D1341C1D60DF00C005BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0170D1351C1D60DF00C005BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +67,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0107E92D1C21B1C100BB2DB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0107E92E1C21B1D800BB2DB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0107E9311C21B2D300BB2DB2 /* ListenView.h */,
+				0107E9321C21B2D300BB2DB2 /* ListenView.m */,
+				0107E9341C21B30D00BB2DB2 /* ListenView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0107E92F1C21B1E000BB2DB2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0170D13A1C1D60DF00C005BB /* ViewController.h */,
+				0170D13B1C1D60DF00C005BB /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0107E9301C21B1E900BB2DB2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		0170D1271C1D60DF00C005BB = {
 			isa = PBXGroup;
 			children = (
@@ -85,12 +123,11 @@
 			children = (
 				0170D1371C1D60DF00C005BB /* AppDelegate.h */,
 				0170D1381C1D60DF00C005BB /* AppDelegate.m */,
-				0170D13A1C1D60DF00C005BB /* ViewController.h */,
-				0170D13B1C1D60DF00C005BB /* ViewController.m */,
 				0170D13D1C1D60DF00C005BB /* Main.storyboard */,
-				01F0C82E1C1D7A5E0055B362 /* icon.png */,
-				0170D1401C1D60DF00C005BB /* Images.xcassets */,
-				0170D1421C1D60E000C005BB /* LaunchScreen.xib */,
+				0107E9301C21B1E900BB2DB2 /* Utils */,
+				0107E92F1C21B1E000BB2DB2 /* Controllers */,
+				0107E92E1C21B1D800BB2DB2 /* Views */,
+				0107E92D1C21B1C100BB2DB2 /* Models */,
 				0170D1331C1D60DF00C005BB /* Supporting Files */,
 			);
 			path = BabyListener;
@@ -99,6 +136,9 @@
 		0170D1331C1D60DF00C005BB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01F0C82E1C1D7A5E0055B362 /* icon.png */,
+				0170D1401C1D60DF00C005BB /* Images.xcassets */,
+				0170D1421C1D60E000C005BB /* LaunchScreen.xib */,
 				0170D1341C1D60DF00C005BB /* Info.plist */,
 				0170D1351C1D60DF00C005BB /* main.m */,
 			);
@@ -206,6 +246,7 @@
 				01F0C82F1C1D7A5E0055B362 /* icon.png in Resources */,
 				0170D1441C1D60E000C005BB /* LaunchScreen.xib in Resources */,
 				0170D1411C1D60DF00C005BB /* Images.xcassets in Resources */,
+				0107E9351C21B30D00BB2DB2 /* ListenView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0170D13C1C1D60DF00C005BB /* ViewController.m in Sources */,
+				0107E9331C21B2D300BB2DB2 /* ListenView.m in Sources */,
 				0170D1391C1D60DF00C005BB /* AppDelegate.m in Sources */,
 				0170D1361C1D60DF00C005BB /* main.m in Sources */,
 			);

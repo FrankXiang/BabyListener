@@ -45,6 +45,9 @@
                                 <rect key="frame" x="269" y="29" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="menu1"/>
+                                <connections>
+                                    <action selector="ListButtonClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0AJ-8B-2Jv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jKB-1j-my1">
                                 <rect key="frame" x="0.0" y="440" width="46" height="21"/>
@@ -62,8 +65,8 @@
                                 <rect key="frame" x="0.0" y="435" width="320" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover" id="cDG-Od-uzm">
-                                <rect key="frame" x="40" y="190" width="240" height="188"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kongkong" id="cDG-Od-uzm">
+                                <rect key="frame" x="40" y="154" width="240" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -81,7 +84,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cover" width="1131" height="1196"/>
+        <image name="kongkong" width="640" height="854"/>
         <image name="last" width="16" height="16"/>
         <image name="menu1" width="16" height="16"/>
         <image name="next" width="16" height="16"/>
